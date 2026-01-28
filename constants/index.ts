@@ -24,6 +24,12 @@ export const Skill_data = [
         height: 80,
     },
     {
+        skill_name: "GoLang",
+        Image: "/go.png",
+        width: 40,
+        height: 40,
+    },
+    {
         skill_name: "Tailwind Css",
         Image: "/tailwind.png",
         width: 80,
@@ -77,24 +83,13 @@ export const Skill_data = [
         width: 40,
         height: 40,
     },
-
 ];
 
 export const Socials = [
     {
-        name: "Instagram",
-        src: "/instagram.svg",
-        link: "https://www.instagram.com/nikhil_maguwala/",
-    },
-    {
         name: "Github",
         src: "/github_white.jpg",
-        link: "https://github.com/nikhilmaguwala",
-    },
-    {
-        name: "Linkedin",
-        src: "/linkedin.svg",
-        link: "https://www.linkedin.com/in/nikhil-maguwala/",
+        link: "https://github.com/cabasaearlagustin-star",
     },
 ];
 
@@ -144,8 +139,8 @@ export const Frontend_skill = [
         height: 80,
     },
     {
-        skill_name: "Angular",
-        Image: "/angular.svg",
+        skill_name: "Github",
+        Image: "/github.svg",
         width: 80,
         height: 80,
     },
@@ -201,8 +196,8 @@ export const Backend_skill = [
         height: 70,
     },
     {
-        skill_name: "Prisma",
-        Image: "/prisma.webp",
+        skill_name: "Go Lang",
+        Image: "/go.png",
         width: 70,
         height: 70,
     },
@@ -222,8 +217,8 @@ export const Full_stack = [
         height: 70,
     },
     {
-        skill_name: "Jenkins",
-        Image: "/jenkins.svg",
+        skill_name: "Webhook",
+        Image: "/webhook.svg",
         width: 70,
         height: 70,
     },

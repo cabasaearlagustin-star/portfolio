@@ -12,22 +12,56 @@ const Projects = () => {
             </h1>
             <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
                 <ProjectCard
-                    src="/photo.png"
-                    title="Modern 3D Portfolio Website"
-                    description="3D Portfolio Website made with React, Vite, Three JS, and TailwindCSS."
-                    link="https://nikhil-maguwala-dark-3d.netlify.app/"
+                    src="/TMX.png"
+                    title="Modern TMX Global Website"
+                    description="TMX Global provides AI-powered tax compliance and financial reporting solutions, helping businesses automate tax processes and ensure regulatory compliance."
+                    link="https://www.tmxglobal.io/"
                 />
                 <ProjectCard
-                    src="/spplstm.png"
-                    title="Stock price prediction with LSTM"
-                    description="Stock Price Prediction with LSTM is a machine learning project that uses LSTM, a type of recurrent neural network, to predict stock prices."
-                    link=""
+                    src="/synaptiq.png"
+                    title="Synaptiq"
+                    description="Synaptiq.io provides AI-powered medical imaging solutions, specifically for radiation oncology, automating tumor volume contouring to improve accuracy and save time."
+                    link="https://synaptiq.io/"
                 />
                 <ProjectCard
-                    src="/auto_mieten.png"
-                    title="Auto Mieten"
-                    description="Developed with Next.js and leveraging its server-side rendering capabilities, the Car Rental website presents various car types, showcasing comprehensive information in a well-designed format with advanced filtering and pagination support for an enhanced user experience."
-                    link=""
+                    src="/simbian.png"
+                    title="Simbian AI"
+                    description="Simbian AI provides autonomous security agents that detect, investigate, and respond to cyber threats in real-time, integrating with existing security tools to reduce alert fatigue and improve response times."
+                    link="https://simbian.ai/ai-agents-for-security"
+                />
+            </div>
+            <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10 mt-10">
+                <ProjectCard
+                    src="/zebraCat.png"
+                    title="ZebraCat AI"
+                    description="ZebraCat AI creates viral social media videos from text or audio in seconds using AI avatars, voices, and automated editing"
+                    link="https://www.zebracat.ai/"
+                />
+                <ProjectCard
+                    src="/symphony.png"
+                    title="SymphonyAI"
+                    description="SymphonyAI provides industry-specific AI solutions for retail, finance, and industrial sectors, offering vertical AI agents that execute tasks like demand forecasting, fraud detection, and root cause analysis."
+                    link="https://www.symphonyai.com/"
+                />
+            </div>
+            <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10 mt-10">
+                <ProjectCard
+                    src="/helport.png"
+                    title="Helport"
+                    description="Helport provides AI-powered call center and telesales solutions, helping global brands in fintech, telecom, and finance scale their customer support and sales operations."
+                    link="https://www.helport.ai/"
+                />
+                <ProjectCard
+                    src="/eightfold.png"
+                    title="Eightfold AI"
+                    description="Eightfold AI provides an AI-powered talent intelligence platform that helps enterprises hire smarter, retain knowledge, and grow skills through agentic AI that acts autonomously across hiring, growth, and retention processes."
+                    link="https://eightfold.ai/"
+                />
+                <ProjectCard
+                    src="/cresta.png"
+                    title="Cresta"
+                    description="Cresta provides AI-powered coaching and guidance for customer-facing teams, using real-time conversation intelligence to improve performance, reduce handle time, and increase revenue across sales and support functions."
+                    link="https://cresta.com/"
                 />
             </div>
         </div>

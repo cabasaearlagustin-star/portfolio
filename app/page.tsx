@@ -11,7 +11,9 @@ export default function Home() {
               <Hero />
               <Skills />
               <Encryption />
-              <Projects />
+              <div className="relative z-10">
+                <Projects />
+              </div>
           </div>
       </main>
   )

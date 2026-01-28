@@ -60,13 +60,13 @@ const Footer = () => {
                         </p>
                         <p className="flex flex-row items-center my-[15px] cursor-pointer">
 
-                            <span className="text-[15px] ml-[6px]">nikhilkmaguwala@gmail.com</span>
+                            <span className="text-[15px] ml-[6px]">cabasaearlagustin@gmail.com</span>
                         </p>
                     </div>
                 </div>
 
                 <div className="mb-[20px] text-[15px] text-center">
-                    &copy; Nikhil Maguwala 2024 Inc. All rights reserved
+                    &copy; Earl Cabasa 2024 Inc. All rights reserved
                 </div>
             </div>
         </div>

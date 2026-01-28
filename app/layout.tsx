@@ -8,8 +8,8 @@ import Footer from "@/components/main/Footer";
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Nikhil Maguwala Portfolio',
-  description: 'Nikhil Maguwala\'s portfolio website',
+  title: 'Earl Cabasa Portfolio',
+  description: 'Earl Cabasa\'s portfolio website',
 }
 
 export default function RootLayout({
@@ -20,7 +20,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${inter.className} bg-[#030014] overflow-y-scroll overflow-x-hidden`}>
-      <StarsCanvas />
+      <div className="absolute inset-0 w-full h-full pointer-events-none z-0">
+        <StarsCanvas />
+      </div>
       <Navbar />
       {children}
       <Footer />
