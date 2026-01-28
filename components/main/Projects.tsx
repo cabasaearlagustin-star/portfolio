@@ -12,7 +12,7 @@ const Projects = () => {
             </h1>
             <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
                 <ProjectCard
-                    src="/TMX.png"
+                    src="/tmx.png"
                     title="Modern TMX Global Website"
                     description="TMX Global provides AI-powered tax compliance and financial reporting solutions, helping businesses automate tax processes and ensure regulatory compliance."
                     link="https://www.tmxglobal.io/"
